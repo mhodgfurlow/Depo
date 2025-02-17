@@ -10,7 +10,9 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Switch>
-        
+        <Route exact path="/" component={App} />
+        <Route path="/waitlist" component={WaitlistPage} />
+        <Route path="/how-it-works" component={HowItWorksPage} />
       </Switch>
     </Router>
   </React.StrictMode>,
